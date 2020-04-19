@@ -234,6 +234,7 @@ public class AnnotatedBeanDefinitionReader {
 	}
 
 	/**
+	 * 真正注册bean到beanDefination工厂的方法
 	 * Register a bean from the given bean class, deriving its metadata from
 	 * class-declared annotations.
 	 * @param beanClass the class of the bean
